@@ -10,6 +10,7 @@
 
 html {
   line-height: 1.15; /* 1 */
+  /*  которое, согласно справочнику, управляет отображением текста на мобильнике (iOS) */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -196,13 +197,20 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  /*
+  * изменяет внешний вид кнопок и других элементов управления, чтобы 
+  * походить на стандартные средства управления.
+  */
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-
+/*
+* Избавиться от пунктирной рамки вокруг элементов, получивших фокус 
+* (ссылки, кнопки, чексбоксы, радиобатоны).
+*/
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -288,6 +296,10 @@ textarea {
  */
 
 [type="search"] {
+  /*
+  * изменяет внешний вид кнопок и других элементов управления, чтобы походить на стандартные средства управления.
+  * textfield — элемент выглядит как текстовое поле
+  */
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
