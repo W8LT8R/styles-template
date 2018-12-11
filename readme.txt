@@ -1,4 +1,4 @@
 
-	ÊÎÍÔÈÃÓĞÀÖÈß ÔĞÎÍÒÅÍÄ ĞÀÇĞÀÁÎÒÊÈ
+	STYLES TEMPLATE
 
-Îïèñàíèå: From working witch single page and wordpress theme.
+Description: For work with single page and wordpress theme.
