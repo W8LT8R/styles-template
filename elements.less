@@ -274,14 +274,16 @@ opacity: @opacity; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9
 
 /* Clearfix
 *******************************/
-.cf:before,
-.cf:after {
+.clearFloat() {
+  &:before,&:after {
     content:"";
     display:table;
+  }
+  &:after {
+      clear:both;
+  }
 }
-.cf:after {
-    clear:both;
-}
+
 .clear {
 	clear:both;
 }
@@ -294,5 +296,3 @@ opacity: @opacity; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9
 .c{ text-align:center; }
 .j{ text-align:justify; }
 .r{ text-align:right; }
-
-
